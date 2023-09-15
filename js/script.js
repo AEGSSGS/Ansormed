@@ -23,14 +23,4 @@ jQuery(document).ready(function($) {
     },
     0
   );
-  icon.click(function() {
-    tl.play();
-  });
-  $(".mobile-slider-top").click(function() {
-    tl.reverse();
-  });
-  // Also close slider when clicking outside of the menu
-  $(".filter").click(function() {
-    tl.reverse();
-  });
 });
